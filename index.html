@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script src="SubmitData.js">
+            
+    </script>
+    <br>
+    <div class="Container">
+        <div>
+            <h1>Sign Up Form Example</h1>
+        </div>
+        <form action="" id="Form" onsubmit="SubmitData(event)">
+            <div class="FormDim labels">
+                <label for="FirstName">FirstName*: </label>
+                <input class="Textfields" required id="FirstName" placeholder="FirstName" type="text">
+            </div>
+            <div class="FormDim labels">
+                <label for="lastName">lastName*: </label>
+                <input class="Textfields" required id="lastName" placeholder="lastName" type="text">
+            </div>
+            <div class="FormDim labels">
+                <label for="Organazation">Organazation: </label>
+                <input class="Textfields"  id="Organazation" placeholder="Organazation" type="text">
+            </div>
+            <div class="FormDim labels">
+                <label for="Email">Email address*: </label>
+                <input class="Textfields" required id="Email" placeholder="Email" type="email">
+            </div>
+
+            <div class="FormDim labels">
+                <label for="Work_phone">Work phone: </label>
+                <input class="Textfields"  id="Work_phone" placeholder="Work phone" type="number">
+            </div>
+            <div class="FormDim labels">
+                <label for="Home_phone">Home phone: </label>
+                <input class="Textfields"  id="Home_phone" placeholder="Home phone" type="number">
+            </div>
+            <div class="FormDim labels">
+                <label for="cell_phone">Cell phone: </label>
+                <input class="Textfields"  id="cell_phone" placeholder="cell phone" type="number">
+            </div>
+            <div class="FormDim labels">
+                <label for="Fax">Fax: </label>
+                <input class="Textfields"  id="Fax" placeholder="Fax" type="text">
+            </div>
+            <div class="FormDim labels">
+                <label for="Address_1">Address 1*: </label>
+                <input class="Textfields" required  id="Address_1" placeholder="Address 1" type="text">
+            </div>
+            <div class="FormDim labels">
+                <label for="Address_2">Address 2: </label>
+                <input class="Textfields"  id="Address_2" placeholder="Address 2" type="text">
+            </div>
+
+            <div class="FormDim labels">
+                <label for="City">City*: </label>
+                <input class="Textfields" required id="City" placeholder="City" type="text">
+            </div>
+
+            <div class="FormDim labels">
+                <label for="State_Province">State Province: </label>
+                <input class="Textfields"  id="State_Province" placeholder="State Province" type="text">
+            </div>
+            <div class="FormDim labels">
+                <label for="Zip_Postal_Code">Zip Postal Code: </label>
+                <input class="Textfields"  id="Zip_Postal_Code" placeholder="Zip Postal Code" type="text">
+            </div>
+            <div class="FormDim labels">
+                <label for="Country">Country*: </label>
+                <input class="Textfields" required id="Country" placeholder="Country" type="text">
+            </div>
+            <div>
+                *-required fields
+            </div>
+            
+            <div>
+                <button class="btn btn-green"  id="SubmitBtn" type="submit">Submit</button>
+            </div>
+            <div id="Result">
+                <p id="MSG"></p>
+            </div>
+        </form>
+    </div>
+   
+
+</body>
+</html>
